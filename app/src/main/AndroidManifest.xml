@@ -13,11 +13,10 @@
        >
 
         <provider android:name=".MyContentProvider"
-            android:authorities="com.example.content_provider_in_android.AUTHORITY"
+            android:authorities="com.demo.user.provider"
             android:enabled="true"
             android:multiprocess = "true"
-            android:exported="true"
-            android:readPermission = "com.example.content_provider_in_android.PERMISSION">
+            android:exported="true">
 
         </provider>
 

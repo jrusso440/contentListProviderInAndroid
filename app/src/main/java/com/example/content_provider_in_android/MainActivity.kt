@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
 
         // creating a cursor object of the
         // content URI
-        val cursor = contentResolver.query(Uri.parse("content://com.example.content_provider_in_android.AUTHORITY/users"), null, null, null, null)
+        val cursor = contentResolver.query(Uri.parse("content://com.demo.user.provider/users"), null, null, null, null)
 
         // iteration of the cursor
         // to print whole table
